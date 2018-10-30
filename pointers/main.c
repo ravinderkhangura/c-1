@@ -23,7 +23,7 @@ int main(void){
 
     // More advanced use of pointers
     // Array's are just fancy pointers
-    char array[5] = {'a', 'A', 'b', 'z', 'M'};
+    char array[5] = {'a', 'A', 'b', 'z', 'M'};//initialize array
     char *same_array = array;
     char **fancy_same_array = &same_array;
 
